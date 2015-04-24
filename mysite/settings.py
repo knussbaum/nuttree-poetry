@@ -97,3 +97,11 @@ try:
     from .local_settings import *
 except ImportError:
     pass
+
+AUTHENTICATION_BACKENDS = (
+    ('django.contrib.auth.backends.ModelBackend'),
+    )
+
+ADMINS = (
+    'kaylanussbaum', 'kaylanussbaum@gmail.com', 'ladeda1723'),
+)
