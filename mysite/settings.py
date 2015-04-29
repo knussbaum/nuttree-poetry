@@ -101,7 +101,3 @@ except ImportError:
 AUTHENTICATION_BACKENDS = (
     ('django.contrib.auth.backends.ModelBackend'),
     )
-
-ADMINS = (
-    'kaylanussbaum', 'kaylanussbaum@gmail.com', 'ladeda1723'),
-)
